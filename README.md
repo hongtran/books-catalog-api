@@ -25,8 +25,17 @@ Start server:
 ```sh
 # Start server
 yarn start
-
 ```
+
+
+Inserts Data:
+```sh
+curl --header "Content-Type: application/json" --request POST --data '{"title": "book 1", "description": "desc book 1", "year": 2020}' localhost:4040/api/books
+curl --header "Content-Type: application/json" --request POST --data '{"title": "book 2", "description": "desc book 2", "year": 2021}' localhost:4040/api/books
+curl --header "Content-Type: application/json" --request POST --data '{"title": "book 3", "description": "desc book 3", "year": 2020}' localhost:4040/api/books
+curl --header "Content-Type: application/json" --request POST --data '{"title": "book 4", "description": "desc book 4", "year": 2021}' localhost:4040/api/books
+```
+
 
 Tests:
 ```sh
