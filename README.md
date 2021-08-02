@@ -2,6 +2,7 @@
 
 Clone the repo:
 ```sh
+git clone https://github.com/hongtran/books-catalog-ui.git
 cd books-catalog-api
 ```
 
